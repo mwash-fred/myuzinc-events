@@ -4,11 +4,17 @@ WORKDIR /var/www/html
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
-    git \
+    build-essential \
+    libpng-dev \
+    libjpeg62-turbo-dev \
+    libfreetype6-dev \
+    locales \
     zip \
+    jpegoptim optipng pngquant gifsicle \
+    vim \
     unzip \
-    libpq-dev \
-    libonig-dev
+    git \
+    curl
 
 #Set php environment
 ENV PHP_CPPFLAGS="$PHP_CPPFLAGS -std=c++11"
