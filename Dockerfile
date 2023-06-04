@@ -70,7 +70,7 @@ USER myuzinc
 RUN composer config --no-plugins allow-plugins.symfony/flex true
 
 # Install application dependencies
-RUN composer install --no-dev --optimize-autoloader
+RUN composer install --optimize-autoloader
 
 EXPOSE 9000
 CMD ["php-fpm"]
