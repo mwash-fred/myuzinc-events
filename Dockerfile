@@ -52,7 +52,7 @@ RUN { \
 COPY ./php.ini /usr/local/etc/php/php.ini
 
 # Set working directory
-WORKDIR /var/www
+WORKDIR /var/www/html
 
 # Install Composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
