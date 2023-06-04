@@ -67,7 +67,7 @@
         "yellowskies/qr-code-bundle": "^1.2"
     },
     "require-dev": {
-        "doctrine/doctrine-fixtures-bundle": "2.x-dev,",
+        "doctrine/doctrine-fixtures-bundle": "2.x-dev",
         "symfony/debug-pack": "*",
         "symfony/maker-bundle": "^1.0",
         "symfony/profiler-pack": "*",
