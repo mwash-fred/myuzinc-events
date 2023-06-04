@@ -1,5 +1,8 @@
 FROM php:7.4-fpm
 
+# Create a non-root user
+RUN groupadd -g 1000 myuzinc && useradd -u 1000 -g myuzinc -m myuzinc
+
 WORKDIR /var/www/html
 
 # Install dependencies
@@ -58,6 +61,9 @@ RUN chown -R www-data:www-data /var/www
 
 # Copy the Symfony application code
 COPY . /var/www/html
+
+# Switch to the non-root user
+USER myuzinc
 
 # Install application dependencies
 RUN composer install --no-dev --optimize-autoloader
