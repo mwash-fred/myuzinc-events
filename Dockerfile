@@ -26,7 +26,7 @@ RUN apt-get update && apt-get install -y \
     libzip-dev \
     && rm -rf /var/lib/apt/lists/*
 
-#Set php environment
+# Set php environment
 ENV PHP_CPPFLAGS="$PHP_CPPFLAGS -std=c++11"
 
 # Clear cache
@@ -34,12 +34,12 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Install extensions
 RUN docker-php-ext-install pdo pdo_mysql zip gd \
-    && docker-php-ext-install opcache \ 
+    && docker-php-ext-install opcache \
     && docker-php-ext-configure intl \
     && docker-php-ext-install intl \
     && apt-get remove libicu-dev icu-devtools -y
 
-#Configure opcache
+# Configure opcache
 RUN { \
         echo 'opcache.memory_consumption=128'; \
         echo 'opcache.interned_strings_buffer=8'; \
@@ -66,6 +66,11 @@ COPY . /var/www/html
 # Switch to the non-root user
 USER myuzinc
 
+# Change permissions of composer.json
+RUN chmod 666 composer.json
+
+# Allow symfony/flex plugin
+RUN composer config --no-plugins allow-plugins.symfony/flex true
 
 # Install application dependencies
 RUN composer install --no-dev --optimize-autoloader
