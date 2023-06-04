@@ -66,6 +66,8 @@ COPY . /var/www/html
 # Switch to the non-root user
 USER myuzinc
 
+RUN composer config --no-plugins allow-plugins.symfony/flex true
+
 # Install application dependencies
 RUN composer install --no-dev --optimize-autoloader
 
