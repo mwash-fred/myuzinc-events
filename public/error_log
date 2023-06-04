@@ -1,0 +1,182 @@
+[10-Feb-2023 09:04:17 Africa/Nairobi] PHP Deprecated:  Non-static method App\Form\Extension\CryptedGatewayConfigTypeExtension::getExtendedTypes() should not be called statically in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/form/DependencyInjection/FormPass.php on line 109
+[10-Feb-2023 09:04:17 Africa/Nairobi] PHP Deprecated:  Non-static method App\Form\Extension\CryptedGatewayConfigTypeExtension::getExtendedTypes() should not be called statically in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/form/DependencyInjection/FormPass.php on line 109
+[13-Feb-2023 10:06:13 Africa/Nairobi] PHP Deprecated:  Non-static method App\Form\Extension\CryptedGatewayConfigTypeExtension::getExtendedTypes() should not be called statically in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/form/DependencyInjection/FormPass.php on line 109
+[13-Feb-2023 10:06:13 Africa/Nairobi] PHP Deprecated:  Non-static method App\Form\Extension\CryptedGatewayConfigTypeExtension::getExtendedTypes() should not be called statically in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/form/DependencyInjection/FormPass.php on line 109
+[23-Feb-2023 11:57:09 Africa/Nairobi] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/home/psjvrlqg/events.myuzinc.com/var/cache/dev/twig/b8). in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php:57
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Environment.php(409): Twig\Cache\FilesystemCache->write('/home/psjvrlqg/...', '<?php\n\nuse Twig...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', '@WebProfiler/Pr...', NULL)
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Environment.php(359): Twig\Environment->loadTemplate('@WebProfiler/Pr...')
+#3 /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Environment.php(318): Twig\Environment->load('@WebProfiler/Pr...')
+#4 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/web-profiler-bundle/EventListener/WebDebugToolbarListener.php(126): Twig\Environment->render('@WebProfiler/Pr...', Array)
+#5 /home/psjvrlqg/events.myuzinc.com/vendor/symfony in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 11:57:09 Africa/Nairobi] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/home/psjvrlqg/events.myuzinc.com/var/cache/dev/twig/b8). in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php:57
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Environment.php(409): Twig\Cache\FilesystemCache->write('/home/psjvrlqg/...', '<?php\n\nuse Twig...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', '@WebProfiler/Pr...', NULL)
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Environment.php(359): Twig\Environment->loadTemplate('@WebProfiler/Pr...')
+#3 /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Environment.php(318): Twig\Environment->load('@WebProfiler/Pr...')
+#4 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/web-profiler-bundle/EventListener/WebDebugToolbarListener.php(126): Twig\Environment->render('@WebProfiler/Pr...', Array)
+#5 /home/psjvrlqg/events.myuzinc.com/vendor/symfony in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 11:57:09 Africa/Nairobi] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/home/psjvrlqg/events.myuzinc.com/var/cache/dev/twig/b8). in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php:57
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Environment.php(409): Twig\Cache\FilesystemCache->write('/home/psjvrlqg/...', '<?php\n\nuse Twig...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', '@WebProfiler/Pr...', NULL)
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Environment.php(359): Twig\Environment->loadTemplate('@WebProfiler/Pr...')
+#3 /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Environment.php(318): Twig\Environment->load('@WebProfiler/Pr...')
+#4 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/web-profiler-bundle/EventListener/WebDebugToolbarListener.php(126): Twig\Environment->render('@WebProfiler/Pr...', Array)
+#5 /home/psjvrlqg/events.myuzinc.com/vendor/symfony in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 11:57:09 Africa/Nairobi] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/home/psjvrlqg/events.myuzinc.com/var/cache/dev/twig/b8). in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php:57
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Environment.php(409): Twig\Cache\FilesystemCache->write('/home/psjvrlqg/...', '<?php\n\nuse Twig...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', '@WebProfiler/Pr...', NULL)
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Environment.php(359): Twig\Environment->loadTemplate('@WebProfiler/Pr...')
+#3 /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Environment.php(318): Twig\Environment->load('@WebProfiler/Pr...')
+#4 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/web-profiler-bundle/EventListener/WebDebugToolbarListener.php(126): Twig\Environment->render('@WebProfiler/Pr...', Array)
+#5 /home/psjvrlqg/events.myuzinc.com/vendor/symfony in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 11:57:47 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Warning: SessionHandler::read(): open(/home/psjvrlqg/events.myuzinc.com/sessions/dev/sess_0377d3510fe67bec8d6a76ee29ac0603, O_RDWR) failed: Disk quota exceeded (122) in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/StrictSessionHandler.php:48
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(103): Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler->doRead('0377d3510fe67be...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php(59): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->read('0377d3510fe67be...')
+#2 [internal function]: Symfony\Component\HttpFoundation\Session\Storage\Proxy\SessionHandlerProxy->read('0377d3510fe67be...')
+#3 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/NativeSessionStorage.php(156) in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 11:57:53 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Warning: SessionHandler::read(): open(/home/psjvrlqg/events.myuzinc.com/sessions/dev/sess_0377d3510fe67bec8d6a76ee29ac0603, O_RDWR) failed: Disk quota exceeded (122) in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/StrictSessionHandler.php:48
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(103): Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler->doRead('0377d3510fe67be...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(71): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->read('0377d3510fe67be...')
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php(91): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->validateId('0377d3510fe67be...')
+#3 in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 11:57:56 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Warning: SessionHandler::read(): open(/home/psjvrlqg/events.myuzinc.com/sessions/dev/sess_989e375d145280c7ec39fc18dafdbd6e, O_RDWR) failed: Disk quota exceeded (122) in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/StrictSessionHandler.php:48
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(103): Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler->doRead('989e375d145280c...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(71): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->read('989e375d145280c...')
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php(91): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->validateId('989e375d145280c...')
+#3 in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 11:58:52 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Warning: SessionHandler::read(): open(/home/psjvrlqg/events.myuzinc.com/sessions/dev/sess_fe61eef46d22905fa305bd3855f865da, O_RDWR) failed: Disk quota exceeded (122) in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/StrictSessionHandler.php:48
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(103): Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler->doRead('fe61eef46d22905...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(71): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->read('fe61eef46d22905...')
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php(91): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->validateId('fe61eef46d22905...')
+#3 in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 11:59:42 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Warning: SessionHandler::read(): open(/home/psjvrlqg/events.myuzinc.com/sessions/dev/sess_mr2ntepg4gu9paq7g76emlhkpe, O_RDWR) failed: Disk quota exceeded (122) in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/StrictSessionHandler.php:48
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(103): Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler->doRead('mr2ntepg4gu9paq...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(71): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->read('mr2ntepg4gu9paq...')
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php(91): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->validateId('mr2ntepg4gu9paq...')
+#3 [inte in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 12:16:38 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Warning: SessionHandler::read(): open(/home/psjvrlqg/events.myuzinc.com/sessions/dev/sess_dda4757bc80bcedba4a16aa864105bbb, O_RDWR) failed: Disk quota exceeded (122) in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/StrictSessionHandler.php:48
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(103): Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler->doRead('dda4757bc80bced...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(71): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->read('dda4757bc80bced...')
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php(91): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->validateId('dda4757bc80bced...')
+#3 in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 12:42:56 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Warning: SessionHandler::read(): open(/home/psjvrlqg/events.myuzinc.com/sessions/dev/sess_8l7d8aro6672nqi01qrgjbfq84, O_RDWR) failed: Disk quota exceeded (122) in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/StrictSessionHandler.php:48
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(103): Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler->doRead('8l7d8aro6672nqi...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(71): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->read('8l7d8aro6672nqi...')
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php(91): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->validateId('8l7d8aro6672nqi...')
+#3 [inte in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 12:43:02 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Warning: SessionHandler::read(): open(/home/psjvrlqg/events.myuzinc.com/sessions/dev/sess_590c007ef99f9e70ceeecbede3b9320b, O_RDWR) failed: Disk quota exceeded (122) in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/StrictSessionHandler.php:48
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(103): Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler->doRead('590c007ef99f9e7...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(71): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->read('590c007ef99f9e7...')
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php(91): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->validateId('590c007ef99f9e7...')
+#3 in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 12:57:32 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Warning: SessionHandler::read(): open(/home/psjvrlqg/events.myuzinc.com/sessions/dev/sess_110d14a9bbcfa83ff38f4ac0765beb97, O_RDWR) failed: Disk quota exceeded (122) in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/StrictSessionHandler.php:48
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(103): Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler->doRead('110d14a9bbcfa83...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(71): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->read('110d14a9bbcfa83...')
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php(91): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->validateId('110d14a9bbcfa83...')
+#3 in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 14:10:44 Africa/Nairobi] PHP Fatal error:  Uncaught Symfony\Component\HttpKernel\Exception\NotFoundHttpException: Source image for path "uploads/events/63f26f6a55c4d465770038.jpeg" could not be found in /home/psjvrlqg/events.myuzinc.com/vendor/liip/imagine-bundle/Controller/ImagineController.php:147
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/liip/imagine-bundle/Controller/ImagineController.php(91): Liip\ImagineBundle\Controller\ImagineController->createRedirectResponse(Object(Closure), 'uploads/events/...', 'thumbnail')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-kernel/HttpKernel.php(158): Liip\ImagineBundle\Controller\ImagineController->filterAction(Object(Symfony\Component\HttpFoundation\Request), 'uploads/events/...', 'thumbnail')
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-kernel/HttpKernel.php(80): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#3 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-kernel/Kernel.php(201): Symfony\Component\HttpKern in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 14:11:15 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Warning: SessionHandler::read(): open(/home/psjvrlqg/events.myuzinc.com/sessions/dev/sess_50948c8b3eb350be8bc3230d84dd019a, O_RDWR) failed: Disk quota exceeded (122) in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/StrictSessionHandler.php:48
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(103): Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler->doRead('50948c8b3eb350b...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php(59): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->read('50948c8b3eb350b...')
+#2 [internal function]: Symfony\Component\HttpFoundation\Session\Storage\Proxy\SessionHandlerProxy->read('50948c8b3eb350b...')
+#3 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/NativeSessionStorage.php(156) in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 14:11:28 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Warning: SessionHandler::read(): open(/home/psjvrlqg/events.myuzinc.com/sessions/dev/sess_50948c8b3eb350be8bc3230d84dd019a, O_RDWR) failed: Disk quota exceeded (122) in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/StrictSessionHandler.php:48
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(103): Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler->doRead('50948c8b3eb350b...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(71): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->read('50948c8b3eb350b...')
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php(91): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->validateId('50948c8b3eb350b...')
+#3 in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 14:12:39 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Warning: SessionHandler::read(): open(/home/psjvrlqg/events.myuzinc.com/sessions/dev/sess_8d0a253738a4072ecadf4b45b8574879, O_RDWR) failed: Disk quota exceeded (122) in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/StrictSessionHandler.php:48
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(103): Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler->doRead('8d0a253738a4072...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(71): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->read('8d0a253738a4072...')
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php(91): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->validateId('8d0a253738a4072...')
+#3 in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 14:12:53 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Warning: SessionHandler::read(): open(/home/psjvrlqg/events.myuzinc.com/sessions/dev/sess_ee6066a83bbd3f5d3d003d18bbda3ba4, O_RDWR) failed: Disk quota exceeded (122) in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/StrictSessionHandler.php:48
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(103): Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler->doRead('ee6066a83bbd3f5...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(71): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->read('ee6066a83bbd3f5...')
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php(91): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->validateId('ee6066a83bbd3f5...')
+#3 in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 14:13:08 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Warning: SessionHandler::read(): open(/home/psjvrlqg/events.myuzinc.com/sessions/dev/sess_b9e95bb181c651e11550384e2b6d71b3, O_RDWR) failed: Disk quota exceeded (122) in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/StrictSessionHandler.php:48
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(103): Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler->doRead('b9e95bb181c651e...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(71): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->read('b9e95bb181c651e...')
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php(91): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->validateId('b9e95bb181c651e...')
+#3 in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 16:43:51 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Warning: SessionHandler::read(): open(/home/psjvrlqg/events.myuzinc.com/sessions/dev/sess_m3af983pfppc9thjir16faflpg, O_RDWR) failed: Disk quota exceeded (122) in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/StrictSessionHandler.php:48
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(103): Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler->doRead('m3af983pfppc9th...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(71): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->read('m3af983pfppc9th...')
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php(91): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->validateId('m3af983pfppc9th...')
+#3 [inte in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 16:49:28 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Warning: SessionHandler::read(): open(/home/psjvrlqg/events.myuzinc.com/sessions/dev/sess_a3cab76355e0be4ac561d7cc88706932, O_RDWR) failed: Disk quota exceeded (122) in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/StrictSessionHandler.php:48
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(103): Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler->doRead('a3cab76355e0be4...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(71): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->read('a3cab76355e0be4...')
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php(91): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->validateId('a3cab76355e0be4...')
+#3 in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 16:49:37 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Warning: SessionHandler::read(): open(/home/psjvrlqg/events.myuzinc.com/sessions/dev/sess_626b65428233f3bb9cdb0c1a47eabfda, O_RDWR) failed: Disk quota exceeded (122) in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/StrictSessionHandler.php:48
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(103): Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler->doRead('626b65428233f3b...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(71): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->read('626b65428233f3b...')
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php(91): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->validateId('626b65428233f3b...')
+#3 in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 16:49:45 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Warning: SessionHandler::read(): open(/home/psjvrlqg/events.myuzinc.com/sessions/dev/sess_a9be4b5a281084371b444d7c44bfdf19, O_RDWR) failed: Disk quota exceeded (122) in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/StrictSessionHandler.php:48
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(103): Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler->doRead('a9be4b5a2810843...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(71): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->read('a9be4b5a2810843...')
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php(91): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->validateId('a9be4b5a2810843...')
+#3 in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 16:49:46 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Warning: SessionHandler::read(): open(/home/psjvrlqg/events.myuzinc.com/sessions/dev/sess_09babce446ed194a2a61035475992ccd, O_RDWR) failed: Disk quota exceeded (122) in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/StrictSessionHandler.php:48
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(103): Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler->doRead('09babce446ed194...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(71): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->read('09babce446ed194...')
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php(91): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->validateId('09babce446ed194...')
+#3 in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 16:49:55 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Warning: SessionHandler::read(): open(/home/psjvrlqg/events.myuzinc.com/sessions/dev/sess_448d42d49db2315be57b5b7ce8e5446d, O_RDWR) failed: Disk quota exceeded (122) in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/StrictSessionHandler.php:48
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(103): Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler->doRead('448d42d49db2315...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(71): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->read('448d42d49db2315...')
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php(91): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->validateId('448d42d49db2315...')
+#3 in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 16:49:57 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Warning: SessionHandler::read(): open(/home/psjvrlqg/events.myuzinc.com/sessions/dev/sess_a37543b5de0db88c3b3237c6a7d2c1e5, O_RDWR) failed: Disk quota exceeded (122) in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/StrictSessionHandler.php:48
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(103): Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler->doRead('a37543b5de0db88...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(71): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->read('a37543b5de0db88...')
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php(91): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->validateId('a37543b5de0db88...')
+#3 in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 16:50:15 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Warning: SessionHandler::read(): open(/home/psjvrlqg/events.myuzinc.com/sessions/dev/sess_27e29e7de6eec7eb3bad16f1735cebd1, O_RDWR) failed: Disk quota exceeded (122) in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/StrictSessionHandler.php:48
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(103): Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler->doRead('27e29e7de6eec7e...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(71): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->read('27e29e7de6eec7e...')
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php(91): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->validateId('27e29e7de6eec7e...')
+#3 in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[23-Feb-2023 16:50:31 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Warning: SessionHandler::read(): open(/home/psjvrlqg/events.myuzinc.com/sessions/dev/sess_7eb9137ed5466e0ca4861becd0340c69, O_RDWR) failed: Disk quota exceeded (122) in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/StrictSessionHandler.php:48
+Stack trace:
+#0 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(103): Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler->doRead('7eb9137ed5466e0...')
+#1 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php(71): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->read('7eb9137ed5466e0...')
+#2 /home/psjvrlqg/events.myuzinc.com/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php(91): Symfony\Component\HttpFoundation\Session\Storage\Handler\AbstractSessionHandler->validateId('7eb9137ed5466e0...')
+#3 in /home/psjvrlqg/events.myuzinc.com/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+[24-Feb-2023 10:09:45 Africa/Nairobi] PHP Deprecated:  Non-static method App\Form\Extension\CryptedGatewayConfigTypeExtension::getExtendedTypes() should not be called statically in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/form/DependencyInjection/FormPass.php on line 109
+[24-Feb-2023 10:09:45 Africa/Nairobi] PHP Deprecated:  Non-static method App\Form\Extension\CryptedGatewayConfigTypeExtension::getExtendedTypes() should not be called statically in /home/psjvrlqg/events.myuzinc.com/vendor/symfony/form/DependencyInjection/FormPass.php on line 109
