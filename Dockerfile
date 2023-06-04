@@ -32,7 +32,7 @@ ENV PHP_CPPFLAGS="$PHP_CPPFLAGS -std=c++11"
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Install extensions
-RUN docker-php-ext-install pdo pdo_mysql gd \
+RUN docker-php-ext-install pdo pdo_mysql zip gd \
     && docker-php-ext-install opcache \ 
     && docker-php-ext-configure intl \
     && docker-php-ext-install intl \
