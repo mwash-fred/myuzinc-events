@@ -11,4 +11,8 @@ doctrine_migrations:
     - '%kernel.project_dir%/src/Migrations'
   organize_migrations: true
   services: []
-  storage: '%kernel.project_dir%/var/migrations.lock'
+  storage:
+    type: doctrine
+    options:
+      connection: default
+      table: migration_versions
