@@ -23,6 +23,7 @@ RUN apt-get update && apt-get install -y \
     libgd-dev \
     libicu-dev \
     icu-devtools \
+    libzip-dev \
     && rm -rf /var/lib/apt/lists/*
 
 #Set php environment
