@@ -11,6 +11,8 @@
         "coresphere/console-bundle": "dev-master",
         "debril/rss-atom-bundle": "^5.0",
         "defuse/php-encryption": "^2.2",
+        "doctrine/common": "*",
+        "doctrine/persistence": "*",
         "dompdf/dompdf": "^0.8.4",
         "excelwebzone/recaptcha-bundle": "^1.5",
         "exercise/htmlpurifier-bundle": "^3.0",
@@ -67,7 +69,7 @@
         "yellowskies/qr-code-bundle": "^1.2"
     },
     "require-dev": {
-        "doctrine/doctrine-fixtures-bundle": "^3.2",
+        "doctrine/doctrine-fixtures-bundle": "*",
         "symfony/debug-pack": "*",
         "symfony/maker-bundle": "^1.0",
         "symfony/profiler-pack": "*",
