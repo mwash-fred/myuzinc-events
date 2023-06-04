@@ -61,13 +61,10 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 RUN chown -R www-data:www-data /var/www
 
 # Copy the Symfony application code
-COPY . /var/www/html
+COPY --chown=myuzinc:myuzinc . /var/www/html
 
 # Switch to the non-root user
 USER myuzinc
-
-# Change permissions of composer.json
-RUN chmod 666 composer.json
 
 # Allow symfony/flex plugin
 RUN composer config --no-plugins allow-plugins.symfony/flex true
