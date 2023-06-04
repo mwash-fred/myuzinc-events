@@ -12,7 +12,6 @@ doctrine_migrations:
   organize_migrations: true
   services: []
   storage:
-    type: doctrine
-    options:
+    table_storage:
       connection: default
-      table: migration_versions
+      table_name: migration_versions
