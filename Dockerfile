@@ -14,7 +14,13 @@ RUN apt-get update && apt-get install -y \
     vim \
     unzip \
     git \
-    curl
+    curl \
+    libpq-dev \
+    libonig-dev \
+    libgd-dev \
+    libicu-dev \
+    icu-devtools \
+    && rm -rf /var/lib/apt/lists/*
 
 #Set php environment
 ENV PHP_CPPFLAGS="$PHP_CPPFLAGS -std=c++11"
@@ -38,6 +44,9 @@ RUN { \
         echo 'opcache.fast_shutdown=1'; \
         echo 'opcache.enable_cli=1'; \
     } > /usr/local/etc/php/conf.d/php-opocache-cfg.ini
+
+# Copy php.ini configuration
+COPY ./php.ini /usr/local/etc/php/php.ini
 
 # Set working directory
 WORKDIR /var/www
